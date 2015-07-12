@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/dudeofawesome/Smartbox-master-server",
   "dependencies": {
+    "body-parser": "^1.13.2",
     "express": "^4.13.1"
   }
 }
