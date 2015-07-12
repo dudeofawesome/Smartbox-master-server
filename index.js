@@ -19,7 +19,7 @@ module.exports = {
         return this;
     },
     startServer: function () {
-        app.post('/getData', function (req, res) {
+        app.get('/getData', function (req, res) {
             res.send(JSON.stringify(data));
         });
         app.post('/setData', function (req, res) {
