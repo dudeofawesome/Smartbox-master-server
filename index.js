@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({
     extended: true
 }));
 
-var data;
+var data = {};
 
 module.exports = {
     init: function () {
