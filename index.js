@@ -20,10 +20,10 @@ module.exports = {
     },
     startServer: function () {
         app.get('/getData', function (req, res) {
-            res.send(JSON.stringify(data));
+            res.send("data=" + JSON.stringify(data));
         });
         app.post('/setData', function (req, res) {
-            data = req.body.data
+            data = req.body.data;
         });
 
         server = app.listen(WEBSITE_PORT, function () {
